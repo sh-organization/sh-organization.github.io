@@ -1,5 +1,6 @@
         /* === ОСНОВНІ СТИЛІ === */
         body {
+            font-family: "Source Code Pro", monospace;
             margin: 0;
             /* === ШРИФТ (Consolas + fallback) === */
             font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
@@ -8,49 +9,8 @@
             line-height: 1.6;
         }
 
-        /* Контейнер для всього контенту */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        /* === ЗАГОЛОВОК === */
-        h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            margin-top: 40px;
-            font-size: 20px;
-            color: #aaa;
-        }
-
-        /* === ПОСИЛАННЯ === */
-        a {
-            color: #fff;
-            text-decoration: none;
-            border-bottom: 1px solid #555;
-        }
-
-        a:hover {
-            border-bottom: 1px solid #fff;
-        }
-
-        /* === ПРОЄКТИ === */
-        .project {
-            margin-bottom: 20px;
-        }
-
-        /* === ФУТЕР === */
-        footer {
-            margin-top: 60px;
-            font-size: 14px;
-            color: #777;
-        }
-
-        /* === МОБІЛКА === */
+       
+        /* === телефон === */
         @media (max-width: 600px) {
             h1 {
                 font-size: 26px;
