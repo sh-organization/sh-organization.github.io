@@ -26,3 +26,8 @@ a:hover {
                 font-size: 26px;
             }
         }
+
+* {
+    color: inherit;
+    font-family: inherit;
+}
