@@ -1,1 +1,7 @@
+body {
+  padding: 20px;      /* відступ всередині body від країв вікна */
+}
 
+.container,project {
+  margin: 10px 15px;  /* 10px зверху/знизу, 15px зліва/справа */
+}
